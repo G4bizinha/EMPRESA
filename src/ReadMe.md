@@ -54,5 +54,7 @@
 
 Sistema desenvolvido com muito ❤️☕ por  [Gabriela Von](https://github.com/G4bizinha) & [Geordani Machado](https://github.com/Geordani-Machado) 
 
+  "Não é gambiarra, é uma solução alternativa não oficial." by Gabriela&Geordani
+
 
 

@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+#ifndef EMPREGADO_H
+#define EMPREGADO_H
 
   class Empregado {
 
@@ -18,3 +20,4 @@ using namespace std;
     string sobrenome;
     string cpf;
   };
+#endif
