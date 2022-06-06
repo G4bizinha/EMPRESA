@@ -1,4 +1,4 @@
-#include <iostream>
+sobre#include <iostream>
 #include "./Empregado/empregado.hpp"
 #include "./Assalariado/assalariado.hpp"
 #include "./Comissionado/comissionado.hpp"
@@ -10,25 +10,34 @@ Comissionado c;
 Horista h;
 
 int controleMenu =1;
-string nome , sobrenome, cpf;
 //cria um menu para exibir as informações para fluxo lógico da aplicação
 
-void RegisterEmployee(){
-	string nome , sobrenome, cpf;
+string registerName(){
+	string nome;
 	cout << "qual o nome do funcionário?";
 	cin >> nome;
+	return  nome;
+}
+string registerLastName(){
+	string sobrenome;
 	cout << "qual o sobrenome do funcionário?";
 	cin >> sobrenome;
-	cout << "qual o cpf do seu funcionário?";
+	return sobrenome;
+}
+string registercpf(){
+	string cpf;
+	cout << "qual o CPF do funcionário?";
 	cin >> cpf;
+	return cpf;
 }
 
-int Menu(){
+int MenuCalculationSalary(){
 	int escolha;
 	cout << " ---------------- Menu ------------- \n";
-	cout << " 1 - Ver Assalariado \n";
-	cout << " 2 - Ver Comissionado \n";
-	cout << " 3 - Ver Horista \n";
+	cout << " 1 - Calcular Assalariado \n";
+	cout << " 2 - Calcular Comissionado \n";
+	cout << " 3 - Calcular Horista \n";
+	cout << " 4 - Sair \n";
 	cout << " ------------------------------------- \n";
 	cin >> escolha;
 
@@ -40,27 +49,34 @@ int Menu(){
 	}
 }
 
-void fluxoLogico(int i){
+void flowlogicalcalculationsalary(int i){
 	switch(i)
 	{
 		case 1:
+			RegisterEmployee();
+			a.register_funcionario();
 		  a.vencimento();
-			a.register_funcionario(nome,cpf,sobrenome);
 		break;
-		
     case 2:
+			RegisterEmployee();
+			c.register_funcionario();
 		  c.vencimento();
     break;
-		
     case 3:
+			//RegisterEmployee();
+			h.register_funcionario());
       h.vencimento();
     break;
+		case 4:
+			cout << "exiting...";
+			exit(1);
+		break;
 	}
 }
 
 int main() {
 	do{
-		fluxoLogico(Menu());
+		flowlogicalcalculationsalary(MenuCalculationSalary());
 	}while(controleMenu==1);
 }
 

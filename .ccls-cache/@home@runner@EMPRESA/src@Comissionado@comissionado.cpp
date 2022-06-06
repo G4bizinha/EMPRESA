@@ -10,5 +10,6 @@ double Comissionado::vencimento(){
 	salario = (taxaComissao * totalVenda);
 
 	cout << " O salario mensal dessa pessoa é de R$: " << salario << endl;
+	return salario;
 }
 
