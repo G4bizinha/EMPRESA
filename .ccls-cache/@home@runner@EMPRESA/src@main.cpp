@@ -1,4 +1,4 @@
-sobre#include <iostream>
+#include <iostream>
 #include "./Empregado/empregado.hpp"
 #include "./Assalariado/assalariado.hpp"
 #include "./Comissionado/comissionado.hpp"
@@ -20,27 +20,16 @@ string registerName(){
 }
 string registerLastName(){
 	string sobrenome;
-	cout << "qual o nome do funcionário?";
-	cin >> sobrenome;
-	return  sobrenome;
-}
-string registercpf
-
-
-
-string RegisterEmployee(){
-	string nome , sobrenome, cpf;
-	cout << "qual o nome do funcionário?";
-	cin >> nome;
 	cout << "qual o sobrenome do funcionário?";
 	cin >> sobrenome;
-	cout << "qual o cpf do seu funcionário?";
-	cin >> cpf;
-	return nome;
 	return sobrenome;
+}
+string registercpf(){
+	string cpf;
+	cout << "qual o CPF do funcionário?";
+	cin >> cpf;
 	return cpf;
 }
-
 
 int MenuCalculationSalary(){
 	int escolha;
@@ -64,18 +53,16 @@ void flowlogicalcalculationsalary(int i){
 	switch(i)
 	{
 		case 1:
-			RegisterEmployee();
-			a.register_funcionario();
+			a.register_funcionario(registerName(),registerLastName(),registercpf());
 		  a.vencimento();
 		break;
     case 2:
-			RegisterEmployee();
-			c.register_funcionario();
+			c.register_funcionario(registerName(),registerLastName(),registercpf());
 		  c.vencimento();
     break;
     case 3:
 			//RegisterEmployee();
-			h.register_funcionario(RegisterEmployee());
+			h.register_funcionario(registerName(),registerLastName(),registercpf());
       h.vencimento();
     break;
 		case 4:

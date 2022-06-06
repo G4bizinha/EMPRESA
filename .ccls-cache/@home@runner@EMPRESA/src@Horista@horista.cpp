@@ -9,5 +9,6 @@ double Horista::vencimento(){
 
   salario = (totaldehoras*precohora);
 
-	cout << "o salario mensal dessa pessoa é de R$: " << salario << endl;
+	cout << "o salario mensal de " << nome << " " << sobrenome << " é de R$: " << salario << endl << endl;
+	return salario;
 }

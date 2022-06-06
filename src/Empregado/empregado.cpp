@@ -6,10 +6,4 @@
 		this->cpf=cpf;
   }
 
-  string Empregado::get_funcionario(){
-    return nome;
-		return sobrenome;
-		return cpf;
-  }
-
  

@@ -23,7 +23,7 @@
   >recebe como base o salario em cima do salario calcula o Alíquota e as deduções
 
 # imposto de renda
-	- Alíquota:
+	- Alícota:
   > taxa percentual de acordo com a base selarial: <br/>
 > Até R$ 1.903,98	0,0%	<br/>
 > De R$ 1.903,99 até R$ 2.826,65	7,5%	R$ 142,80 <br/>

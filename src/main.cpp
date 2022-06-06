@@ -1,4 +1,4 @@
-sobre#include <iostream>
+#include <iostream>
 #include "./Empregado/empregado.hpp"
 #include "./Assalariado/assalariado.hpp"
 #include "./Comissionado/comissionado.hpp"
@@ -53,18 +53,16 @@ void flowlogicalcalculationsalary(int i){
 	switch(i)
 	{
 		case 1:
-			RegisterEmployee();
-			a.register_funcionario();
+			a.register_funcionario(registerName(),registerLastName(),registercpf());
 		  a.vencimento();
 		break;
     case 2:
-			RegisterEmployee();
-			c.register_funcionario();
+			c.register_funcionario(registerName(),registerLastName(),registercpf());
 		  c.vencimento();
     break;
     case 3:
 			//RegisterEmployee();
-			h.register_funcionario());
+			h.register_funcionario(registerName(),registerLastName(),registercpf());
       h.vencimento();
     break;
 		case 4:
