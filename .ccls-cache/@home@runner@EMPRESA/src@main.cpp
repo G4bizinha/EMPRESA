@@ -8,8 +8,21 @@ using namespace std;
 Assalariado a;
 Comissionado c;
 Horista h;
+
 int controleMenu =1;
+string nome , sobrenome, cpf;
 //cria um menu para exibir as informações para fluxo lógico da aplicação
+
+void RegisterEmployee(){
+	string nome , sobrenome, cpf;
+	cout << "qual o nome do funcionário?";
+	cin >> nome;
+	cout << "qual o sobrenome do funcionário?";
+	cin >> sobrenome;
+	cout << "qual o cpf do seu funcionário?";
+	cin >> cpf;
+}
+
 int Menu(){
 	int escolha;
 	cout << " ---------------- Menu ------------- \n";
@@ -32,6 +45,7 @@ void fluxoLogico(int i){
 	{
 		case 1:
 		  a.vencimento();
+			a.register_funcionario(nome,cpf,sobrenome);
 		break;
 		
     case 2:

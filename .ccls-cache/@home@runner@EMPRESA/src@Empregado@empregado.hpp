@@ -6,12 +6,8 @@ using namespace std;
   class Empregado {
 
   public:
-		void set_nome(string n);
-    void set_sobrenome(string s);
-    void set_cpf(string c);
-		string get_nome();
-		string get_sobrenome();
-		string get_cpf();
+		void register_funcionario(string nome, string sobrenome , string cpf);
+		string get_funcionario();
 
   virtual double vencimento()=0;
   

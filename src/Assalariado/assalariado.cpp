@@ -62,5 +62,7 @@ De R$ 3.641,04 a R$ 7.087,22	14%
 
 	cout << " o salario dessa pessoa é de aproximadamente: R$" << resultado << endl;
 
+	return resultado;
+
 }
 

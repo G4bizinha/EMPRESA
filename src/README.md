@@ -24,16 +24,16 @@
 
 # imposto de renda
 	- Alíquota:
-  > taxa percentual de acordo com a base selarial:
-> Até R$ 1.903,98	0,0%	
-> De R$ 1.903,99 até R$ 2.826,65	7,5%	R$ 142,80 
-> De R$ 2.826,66 ate R$ 3.751,05	15,0%	R$ 354,80
-> De R$ 3.751,06 até R$ 4.664,68	22,5%	R$ 636,13
+  > taxa percentual de acordo com a base selarial: <br/>
+> Até R$ 1.903,98	0,0%	<br/>
+> De R$ 1.903,99 até R$ 2.826,65	7,5%	R$ 142,80 <br/>
+> De R$ 2.826,66 ate R$ 3.751,05	15,0%	R$ 354,80 <br/>
+> De R$ 3.751,06 até R$ 4.664,68	22,5%	R$ 636,13 <br/>
 
 # tabela Alícota INSS
-> até R$ 1.751,81 - Alíqota 8,00%
->  R$ 1.751,82 até 2.919,72 9,00%
-> R$ 2.919,73 até R$ 5.839,45 - Alíqota 11,00%
+> até R$ 1.751,81 - Alíqota 8,00% <br/>
+>  R$ 1.751,82 até 2.919,72 9,00% <br/>
+> R$ 2.919,73 até R$ 5.839,45 - Alíqota 11,00% <br/>
 
 
 # Comissionado
